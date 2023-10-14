@@ -1,6 +1,47 @@
+body{
+    background-image: linear-gradient(90deg,#0366E6,#32A9FE);
+}
 .card{
+    display: inline-block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 40%;
     border-radius: 5px;
+    padding: 2px 16px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 25%;
+    margin: 8px;
+    color: #989A9E;
+}
+.disabledText{
+    color: #989A9E;
+}
+
+.Black{
+    color: black;
+}
+
+button{
+    background-color:#007AFF;
+    width: 80%;
+    border: #007AFF;
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+}
+.disabledButton{
+    opacity: 0.6;
+        cursor: not-allowed;
+}
+.row{
+    text-align: center;
+}
+
+.list{
+    color: black;
+    list-style: none;
+    text-align: left;
+    padding-left: 2px;
+
 }
